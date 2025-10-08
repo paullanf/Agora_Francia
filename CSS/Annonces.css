@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    color: black;
+    max-width: 1200px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.image-section {
+    text-align: center;
+}
+.image-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.details {
+    margin-top: 20px;
+}
+.details h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.price {
+    font-size: 28px;
+    color: #e60000;
+    font-weight: bold;
+}
+.points-forts, .caracteristiques, .equipements {
+    margin-top: 20px;
+}
+.section-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    padding: 5px 0;
+}
+.button {
+    display: inline-block;
+    margin: 20px 10px 0;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.button.phone {
+    background-color: #28a745;
+}
+.button:hover {
+    opacity: 0.9;
+}

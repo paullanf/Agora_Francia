@@ -1,0 +1,28 @@
+/* Pour le carousel d'images */
+
+/* Conteneur pour aligner les deux carrousels */
+.carrousel-container {
+    display: flex; /* Aligne les carrousels côte à côte */
+    justify-content: space-between; /* Espace égal entre les carrousels */
+    gap: 20px; /* Espace entre les carrousels */
+    width: 100%;
+    margin: 20px auto;
+}
+
+/* Pour chaque carrousel */
+.carrousel {
+    position: relative;
+    height: 400px; /* Hauteur uniforme pour les deux carrousels */
+    width: 700px;
+    border: 5px solid #262524;
+    overflow: hidden;
+    flex: 1; /* Assure que chaque carrousel prenne la même largeur */
+}
+
+/* Style pour les images dans le carrousel */
+#carrousel1 ul li, #carrousel2 ul li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    list-style: none;
+}

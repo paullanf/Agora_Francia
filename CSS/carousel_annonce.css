@@ -1,0 +1,46 @@
+/* Pour le carousel d'images*/
+#carrousel {
+	position: relative;
+	height: 200px;
+	width: 700px;
+	margin: auto;
+}
+.photo{
+	float: right;
+	height: 400px;
+	width: 700px;
+}
+
+#carrousel ul li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    list-style: none;
+}
+
+/* Boutons de navigation */
+.prev, .next {
+    border: 1px solid black;
+    background-color: #5C5A62;
+    padding: 10px;
+    position: absolute;
+    top: 50%;  /* Centré verticalement */
+    transform: translateY(160%); /* Assure un centrage parfait */
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.prev:hover, .next:hover {
+    background-color: #444; /* Assombrit le bouton au survol */
+}
+
